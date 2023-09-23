@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34112.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpusSharp", "OpusSharp\OpusSharp.csproj", "{36D343D2-08EF-4B3D-9962-97C8CFB3185C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C91965A8-8CD2-4365-A1AC-E907B917DD80}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpusSharp.Sample", "OpusSharp.Sample\OpusSharp.Sample.csproj", "{F47FF006-B562-4298-BCBE-9302BED7A08C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36D343D2-08EF-4B3D-9962-97C8CFB3185C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36D343D2-08EF-4B3D-9962-97C8CFB3185C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36D343D2-08EF-4B3D-9962-97C8CFB3185C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36D343D2-08EF-4B3D-9962-97C8CFB3185C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F47FF006-B562-4298-BCBE-9302BED7A08C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F47FF006-B562-4298-BCBE-9302BED7A08C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F47FF006-B562-4298-BCBE-9302BED7A08C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F47FF006-B562-4298-BCBE-9302BED7A08C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD86DDD2-6E82-4732-B472-777D94360C7F}
+	EndGlobalSection
+EndGlobal

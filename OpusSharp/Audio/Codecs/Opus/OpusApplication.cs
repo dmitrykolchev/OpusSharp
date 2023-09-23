@@ -1,0 +1,12 @@
+﻿// <copyright file="OpusApplication.cs">
+// Copyright (c) 2022-23 Dmitry Kolchev. All rights reserved.
+// See LICENSE in the project root for license information
+// </copyright>
+
+namespace DykBits.Audio.Codecs.Opus;
+public enum OpusApplication
+{
+    VoIP = Native.OPUS_APPLICATION_VOIP,
+    Audio = Native.OPUS_APPLICATION_AUDIO,
+    RestrictedLowDelay = Native.OPUS_APPLICATION_RESTRICTED_LOWDELAY
+}
