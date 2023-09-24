@@ -180,9 +180,15 @@ internal class Native
     [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
     public static extern int opus_encode(IntPtr encoder, IntPtr pcm, int frameSize, IntPtr data, int maxDataBytes);
 
+    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
+    public unsafe static extern int opus_encode(IntPtr encoder, void* pcm, int frameSize, void* data, int maxDataBytes);
+
 
     [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
     public static extern int opus_decode(IntPtr decoder, IntPtr data, int len, IntPtr pcm, int frameSize, int decodeFec);
+
+    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
+    public unsafe static extern int opus_decode(IntPtr decoder, void* data, int len, void* pcm, int frameSize, int decodeFec);
 
     /// <summary>
     /// Frees an <code>OpusEncoder</code> allocated by opus_encoder_create()

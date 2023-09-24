@@ -3,7 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
+using System.Buffers;
 using System.Reflection.Emit;
+using System.Runtime.InteropServices;
 
 namespace DykBits.Audio.Codecs.Opus;
 
@@ -34,12 +36,12 @@ public class OpusDecoder : IDisposable
         return new OpusDecoder(encoder, samplingRate, channels);
     }
 
-    public unsafe int Decode(byte[] data, int dataLength, short[] pcm, int offset, int frameSize, bool fec = false)
+    public unsafe int Decode(ReadOnlyMemory<byte> data, int dataLength, Span<short> pcm, int offset, int frameSize, bool fec = false)
     {
-        fixed (short* pcmPtr = &pcm[offset])
-        fixed (byte* dataPtr = data)
+        using MemoryHandle handleData = data.Pin();
+        fixed (short* pcmPtr = pcm)
         {
-            int length = Native.opus_decode(_decoder, new IntPtr(dataPtr), dataLength, new IntPtr(pcmPtr), frameSize, fec ? 1 : 0);
+            int length = Native.opus_decode(_decoder, handleData.Pointer, dataLength, (void*)pcmPtr, frameSize, fec ? 1 : 0);
             OpusException.HandleError(length);
             return length;
         }
