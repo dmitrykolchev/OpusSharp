@@ -45,6 +45,17 @@ public class OpusDecoder : IDisposable
         }
     }
 
+    public unsafe int Decode(byte[] data, int dataLength, byte[] pcm, int frameSize, bool fec = false)
+    {
+        fixed (byte* pcmPtr = pcm)
+        fixed (byte* dataPtr = data)
+        {
+            int length = Native.opus_decode(_decoder, new IntPtr(dataPtr), dataLength, new IntPtr(pcmPtr), frameSize, fec ? 1 : 0);
+            OpusException.HandleError(length);
+            return length;
+        }
+    }
+
     public void Close()
     {
         if (_decoder != IntPtr.Zero)
