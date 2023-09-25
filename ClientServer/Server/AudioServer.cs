@@ -34,8 +34,8 @@ public class AudioServer
 
         byte[] buffer = GC.AllocateUninitializedArray<byte>(4096);
         Memory<byte> memory = buffer.AsMemory();
-        byte[] pcmBuffer = new byte[4096];
-
+        byte[] pcmBuffer = GC.AllocateUninitializedArray<byte>(4096);
+        int frameSize = 240;
         while (!cancellationToken.IsCancellationRequested)
         {
             try
@@ -45,8 +45,8 @@ public class AudioServer
                 Console.WriteLine($"{result.RemoteEndPoint}, {result.ReceivedBytes}");
                 if (result.ReceivedBytes > 0)
                 {
-                    int length = Decode(memory, result.ReceivedBytes, pcmBuffer);
-                    _playBuffer!.AddSamples(pcmBuffer, 0, 240 * 2 * 2);
+                    int length = Decode(memory, result.ReceivedBytes, pcmBuffer, frameSize);
+                    _playBuffer!.AddSamples(pcmBuffer, 0, frameSize * 2 * 2);
                 }
             }
             catch (SocketException ex)
@@ -57,9 +57,9 @@ public class AudioServer
         }
     }
 
-    private int Decode(ReadOnlyMemory<byte> data, int length, byte[] pcm)
+    private int Decode(ReadOnlyMemory<byte> data, int length, byte[] pcm, int frameSize)
     {
-        return _decoder!.Decode(data, length, MemoryMarshal.Cast<byte, short>(pcm.AsSpan()), 0, 480);
+        return _decoder!.Decode(data, length, MemoryMarshal.Cast<byte, short>(pcm.AsSpan()), 0, frameSize);
     }
 
     private void Initialize()

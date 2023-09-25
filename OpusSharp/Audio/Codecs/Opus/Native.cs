@@ -3,14 +3,11 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using System;
-using System.Runtime.InteropServices;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Runtime.Intrinsics.X86;
+using System.Runtime.CompilerServices;
 
 namespace DykBits.Audio.Codecs.Opus;
 
-internal class Native
+internal unsafe class Native
 {
     public const string OpusDll = "opus.dll";
 
@@ -103,16 +100,22 @@ internal class Native
     /// </summary>
     /// <param name="channels">Number of channels. This must be 1 or 2.</param>
     /// <returns>The size in bytes.</returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_encoder_get_size(int channels);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_encoder_get_size(int channels)
+    {
+        return OpusApi.Api.ApiTable->opus_encoder_get_size(channels);
+    }
 
     /// <summary>
     /// Gets the size of an <code>OpusDecoder</code> structure.
     /// </summary>
     /// <param name="channels">Number of channels. This must be 1 or 2.</param>
     /// <returns></returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_decoder_get_size(int channels);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decoder_get_size(int channels)
+    {
+        return OpusApi.Api.ApiTable->opus_decoder_get_size(channels);
+    }
 
     /// <summary>
     /// Allocates and initializes an encoder state
@@ -123,8 +126,14 @@ internal class Native
     /// <param name="application">Coding mode (one of @ref OPUS_APPLICATION_VOIP, @ref OPUS_APPLICATION_AUDIO, or @ref OPUS_APPLICATION_RESTRICTED_LOWDELAY)</param>
     /// <param name="error"></param>
     /// <returns>encoder state</returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern IntPtr opus_encoder_create(int fs, int channels, int application, out int error);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static IntPtr opus_encoder_create(int fs, int channels, int application, out int error)
+    {
+        int temp;
+        IntPtr result = OpusApi.Api.ApiTable->opus_encoder_create(fs, channels, application, &temp);
+        error = temp;
+        return result;
+    }
 
     /// <summary>
     /// Allocates and initializes a decoder state.
@@ -141,8 +150,14 @@ internal class Native
     /// <param name="channels">Number of channels (1 or 2) to decode</param>
     /// <param name="error">error code</param>
     /// <returns>#OPUS_OK Success or opus_errorcodes</returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern IntPtr opus_decoder_create(int fs, int channels, out int error);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static IntPtr opus_decoder_create(int fs, int channels, out int error)
+    {
+        int temp;
+        IntPtr result = OpusApi.Api.ApiTable->opus_decoder_create(fs, channels, &temp);
+        error = temp;
+        return result;
+    }
 
 
     /// <summary>
@@ -159,8 +174,11 @@ internal class Native
     /// <param name="channels">Number of channels (1 or 2) in input signal</param>
     /// <param name="application">Coding mode (one of @ref OPUS_APPLICATION_VOIP, @ref OPUS_APPLICATION_AUDIO, or @ref OPUS_APPLICATION_RESTRICTED_LOWDELAY)</param>
     /// <returns>OPUS_OK Success or @ref opus_errorcodes</returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_encoder_init(IntPtr encoder, int fs, int channels, int application);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_encoder_init(IntPtr encoder, int fs, int channels, int application)
+    {
+        return OpusApi.Api.ApiTable->opus_encoder_init(encoder, fs, channels, application);
+    }
 
     /// <summary>
     /// Encodes an Opus frame
@@ -177,32 +195,43 @@ internal class Native
     /// This may be used to impose an upper limit on the instant bitrate, but should not 
     /// be used as the only bitrate control. Use #OPUS_SET_BITRATE to control the bitrate.</param>
     /// <returns>The length of the encoded packet (in bytes) on success or a negative error code on failure.</returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_encode(IntPtr encoder, IntPtr pcm, int frameSize, IntPtr data, int maxDataBytes);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_encode(IntPtr encoder, IntPtr pcm, int frameSize, IntPtr data, int maxDataBytes)
+    {
+        return OpusApi.Api.ApiTable->opus_encode(encoder, pcm, frameSize, data, maxDataBytes);
+    }
 
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public unsafe static extern int opus_encode(IntPtr encoder, void* pcm, int frameSize, void* data, int maxDataBytes);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decode(IntPtr decoder, IntPtr data, int len, IntPtr pcm, int frameSize, int decodeFec)
+    {
+        return OpusApi.Api.ApiTable->opus_decode(decoder, data, len, pcm, frameSize, decodeFec);
+    }
 
-
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_decode(IntPtr decoder, IntPtr data, int len, IntPtr pcm, int frameSize, int decodeFec);
-
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public unsafe static extern int opus_decode(IntPtr decoder, void* data, int len, void* pcm, int frameSize, int decodeFec);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decode(IntPtr decoder, void* data, int len, void* pcm, int frameSize, int decodeFec)
+    {
+        return OpusApi.Api.ApiTable->opus_decode(decoder, (IntPtr)data, len, (IntPtr)pcm, frameSize, decodeFec);
+    }
 
     /// <summary>
     /// Frees an <code>OpusEncoder</code> allocated by opus_encoder_create()
     /// </summary>
     /// <param name="encoder">State to be freed</param>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern void opus_encoder_destroy(IntPtr encoder);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static void opus_encoder_destroy(IntPtr encoder)
+    {
+        OpusApi.Api.ApiTable->opus_encoder_destroy(encoder);
+    }
 
     /// <summary>
     /// Frees an <code>OpusDecoder</code> allocated by <see cref="opus_decoder_create(int, int, out int)"/>
     /// </summary>
     /// <param name="decoder">State to be freed</param>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern void opus_decoder_destroy(IntPtr decoder);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static void opus_decoder_destroy(IntPtr decoder)
+    {
+        OpusApi.Api.ApiTable->opus_decoder_destroy(decoder);
+    }
 
     /// <summary>
     /// Perform a CTL function on an Opus encoder.
@@ -213,9 +242,18 @@ internal class Native
     /// <param name="request"></param>
     /// <param name="value"></param>
     /// <returns></returns>
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_encoder_ctl(IntPtr encoder, int request, int value);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_encoder_ctl(IntPtr encoder, int request, int value)
+    {
+        return OpusApi.Api.ApiTable->opus_encoder_ctl(encoder, request, value);
+    }
 
-    [DllImport(OpusDll, CallingConvention = CallingConvention.Cdecl)]
-    public static extern int opus_encoder_ctl(IntPtr encoder, int request, out int value);
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_encoder_ctl(IntPtr encoder, int request, out int value)
+    {
+        int temp;
+        int result = OpusApi.Api.ApiTable->opus_encoder_ctl(encoder, request, (IntPtr)(void*)&temp);
+        value = temp;
+        return result;
+    }
 }

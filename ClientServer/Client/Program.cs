@@ -36,6 +36,11 @@ internal class Program
             }
             int length = encoder.Encode(input, index * frameSize * 2, frameSize, output);
             await udpSocket.SendToAsync(output.AsMemory(0, length), SocketFlags.None, serverEndPoint);
+            Console.WriteLine($"{index}: {length}");
+            if(index % 6 == 5)
+            {
+                System.Threading.Thread.Sleep(14);
+            }
         }
     }
 }
