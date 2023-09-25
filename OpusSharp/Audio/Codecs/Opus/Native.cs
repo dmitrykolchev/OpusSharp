@@ -179,6 +179,25 @@ internal unsafe class Native
     }
 
     /// <summary>
+    /// Initializes a previously allocated decoder state.
+    /// The state must be at least the size returned by opus_decoder_get_size().
+    /// This is intended for applications which use their own allocator instead of malloc. 
+    /// <see cref="opus_decoder_create(int, int, out int)"/>
+    /// <see cref="opus_decoder_get_size(int)"/>
+    /// To reset a previously initialized state, use the #OPUS_RESET_STATE CTL.
+    /// </summary>
+    /// <param name="decoder">Decoder state</param>
+    /// <param name="fs">Sampling rate to decode to (Hz). 
+    /// This must be one of 8000, 12000, 16000, 24000, or 48000.</param>
+    /// <param name="channels">Number of channels (1 or 2) to decode</param>
+    /// <returns>OPUS_OK Success or opus_errorcodes</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decoder_init(IntPtr decoder, int fs, int channels)
+    {
+        return OpusApi.Api.ApiTable->opus_decoder_init(decoder, fs, channels);
+    }
+
+    /// <summary>
     /// Encodes an Opus frame
     /// </summary>
     /// <param name="encoder">Encoder state</param>

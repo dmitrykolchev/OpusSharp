@@ -70,6 +70,8 @@ internal sealed unsafe class OpusApi
             GetExport(nameof(OpusApiTable.opus_decoder_create));
         temp->opus_encoder_init = (delegate* unmanaged[Cdecl]<IntPtr, int, int, int, int>)
             GetExport(nameof(OpusApiTable.opus_encoder_init));
+        temp->opus_decoder_init = (delegate* unmanaged[Cdecl]<IntPtr, int, int, int>)
+            GetExport(nameof(OpusApiTable.opus_decoder_init));
         temp->opus_encode = (delegate* unmanaged[Cdecl]<IntPtr, IntPtr, int, IntPtr, int, int>)
             GetExport(nameof(OpusApiTable.opus_encode));
         temp->opus_decode = (delegate* unmanaged[Cdecl]<IntPtr, IntPtr, int, IntPtr, int, int, int>)
