@@ -9,8 +9,6 @@ namespace DykBits.Audio.Codecs.Opus;
 
 internal unsafe class Native
 {
-    public const string OpusDll = "opus.dll";
-
     public const int OPUS_SET_APPLICATION_REQUEST = 4000;
     public const int OPUS_GET_APPLICATION_REQUEST = 4001;
     public const int OPUS_SET_BITRATE_REQUEST = 4002;
@@ -241,18 +239,56 @@ internal unsafe class Native
     /// <param name="encoder"></param>
     /// <param name="request"></param>
     /// <param name="value"></param>
-    /// <returns></returns>
+    /// <returns>error code</returns>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static int opus_encoder_ctl(IntPtr encoder, int request, int value)
     {
         return OpusApi.Api.ApiTable->opus_encoder_ctl(encoder, request, value);
     }
 
+    /// <summary>
+    /// Perform a CTL function on an Opus encoder.
+    /// Generally the request and subsequent arguments are generated
+    /// by a convenience macro.
+    /// </summary>
+    /// <param name="encoder"></param>
+    /// <param name="request"></param>
+    /// <param name="value"></param>
+    /// <returns>error code</returns>
     [MethodImpl(MethodImplOptions.AggressiveInlining)]
     public static int opus_encoder_ctl(IntPtr encoder, int request, out int value)
     {
         int temp;
         int result = OpusApi.Api.ApiTable->opus_encoder_ctl(encoder, request, (IntPtr)(void*)&temp);
+        value = temp;
+        return result;
+    }
+
+    /// <summary>
+    /// Perform a CTL function on an Opus decoder.
+    /// </summary>
+    /// <param name="decoder">Decoder state</param>
+    /// <param name="request">request</param>
+    /// <param name="value">CTL parameter value</param>
+    /// <returns>error code</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decoder_ctl(IntPtr decoder, int request, int value)
+    {
+        return OpusApi.Api.ApiTable->opus_decoder_ctl(decoder, request, value);
+    }
+
+    /// <summary>
+    /// Perform a CTL function on an Opus decoder.
+    /// </summary>
+    /// <param name="decoder">Decoder state</param>
+    /// <param name="request">request</param>
+    /// <param name="value">CTL parameter value</param>
+    /// <returns>error code</returns>
+    [MethodImpl(MethodImplOptions.AggressiveInlining)]
+    public static int opus_decoder_ctl(IntPtr decoder, int request, out int value)
+    {
+        int temp;
+        int result = OpusApi.Api.ApiTable->opus_decoder_ctl(decoder, request, (IntPtr)(void*)&temp);
         value = temp;
         return result;
     }

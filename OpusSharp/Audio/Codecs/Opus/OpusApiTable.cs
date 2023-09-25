@@ -26,4 +26,6 @@ internal unsafe partial struct OpusApiTable
     internal delegate* unmanaged[Cdecl]<IntPtr, void> opus_decoder_destroy;
 
     internal delegate* unmanaged[Cdecl]<IntPtr, int, IntPtr, int> opus_encoder_ctl;
+
+    internal delegate* unmanaged[Cdecl]<IntPtr, int, IntPtr, int> opus_decoder_ctl;
 }

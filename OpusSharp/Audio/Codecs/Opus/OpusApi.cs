@@ -9,7 +9,10 @@ namespace DykBits.Audio.Codecs.Opus;
 
 internal sealed unsafe class OpusApi
 {
-    private static readonly Lazy<OpusApi> s_api = new Lazy<OpusApi>(AllocateOpusApi);
+    private const string OpusDll = "opus.dll";
+    private const string OpusSo = "libopus.so.0.9.0";
+
+    private static readonly Lazy<OpusApi> s_api = new(AllocateOpusApi);
 
     internal static OpusApi Api => s_api.Value;
 
@@ -38,12 +41,12 @@ internal sealed unsafe class OpusApi
 
         if (OperatingSystem.IsWindows())
         {
-            loaded = NativeLibrary.TryLoad("opus.dll",
+            loaded = NativeLibrary.TryLoad(OpusDll,
                 typeof(OpusApi).Assembly, DllImportSearchPath.AssemblyDirectory, out opusHandle);
         }
-        else if(OperatingSystem.IsLinux())
+        else if (OperatingSystem.IsLinux())
         {
-            loaded = NativeLibrary.TryLoad("libopus.so.0.9.0",
+            loaded = NativeLibrary.TryLoad(OpusSo,
                 typeof(OpusApi).Assembly, DllImportSearchPath.AssemblyDirectory, out opusHandle);
         }
         else
@@ -77,6 +80,8 @@ internal sealed unsafe class OpusApi
             GetExport(nameof(OpusApiTable.opus_decoder_destroy));
         temp->opus_encoder_ctl = (delegate* unmanaged[Cdecl]<IntPtr, int, IntPtr, int>)
             GetExport(nameof(OpusApiTable.opus_encoder_ctl));
+        temp->opus_decoder_ctl = (delegate* unmanaged[Cdecl]<IntPtr, int, IntPtr, int>)
+            GetExport(nameof(OpusApiTable.opus_decoder_ctl));
 
         IntPtr GetExport(string name)
         {
