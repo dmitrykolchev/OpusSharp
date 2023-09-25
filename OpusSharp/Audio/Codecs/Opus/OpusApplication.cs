@@ -6,7 +6,7 @@
 namespace DykBits.Audio.Codecs.Opus;
 public enum OpusApplication
 {
-    VoIP = Native.OPUS_APPLICATION_VOIP,
-    Audio = Native.OPUS_APPLICATION_AUDIO,
-    RestrictedLowDelay = Native.OPUS_APPLICATION_RESTRICTED_LOWDELAY
+    VoIP = OpusApi.OPUS_APPLICATION_VOIP,
+    Audio = OpusApi.OPUS_APPLICATION_AUDIO,
+    RestrictedLowDelay = OpusApi.OPUS_APPLICATION_RESTRICTED_LOWDELAY
 }

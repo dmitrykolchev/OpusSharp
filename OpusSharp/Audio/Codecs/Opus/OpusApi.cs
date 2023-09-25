@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 
 namespace DykBits.Audio.Codecs.Opus;
 
-internal sealed unsafe class OpusApi
+internal sealed unsafe partial class OpusApi
 {
     private const string OpusDll = "opus.dll";
     private const string OpusSo = "libopus.so.0.9.0";

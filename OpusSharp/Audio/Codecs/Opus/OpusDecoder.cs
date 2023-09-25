@@ -4,8 +4,6 @@
 // </copyright>
 
 using System.Buffers;
-using System.Reflection.Emit;
-using System.Runtime.InteropServices;
 
 namespace DykBits.Audio.Codecs.Opus;
 
@@ -31,7 +29,7 @@ public class OpusDecoder : IDisposable
 
     public static OpusDecoder Create(OpusSamplingRate samplingRate, OpusChannels channels)
     {
-        IntPtr encoder = Native.opus_decoder_create((int)samplingRate, (int)channels, out int error);
+        IntPtr encoder = OpusApi.opus_decoder_create((int)samplingRate, (int)channels, out int error);
         OpusException.HandleError(error);
         return new OpusDecoder(encoder, samplingRate, channels);
     }
@@ -41,7 +39,7 @@ public class OpusDecoder : IDisposable
         using MemoryHandle handleData = data.Pin();
         fixed (short* pcmPtr = pcm)
         {
-            int length = Native.opus_decode(_decoder, handleData.Pointer, dataLength, (void*)pcmPtr, frameSize, fec ? 1 : 0);
+            int length = OpusApi.opus_decode(_decoder, handleData.Pointer, dataLength, pcmPtr, frameSize, fec ? 1 : 0);
             OpusException.HandleError(length);
             return length;
         }
@@ -52,7 +50,7 @@ public class OpusDecoder : IDisposable
         fixed (byte* pcmPtr = pcm)
         fixed (byte* dataPtr = data)
         {
-            int length = Native.opus_decode(_decoder, new IntPtr(dataPtr), dataLength, new IntPtr(pcmPtr), frameSize, fec ? 1 : 0);
+            int length = OpusApi.opus_decode(_decoder, new IntPtr(dataPtr), dataLength, new IntPtr(pcmPtr), frameSize, fec ? 1 : 0);
             OpusException.HandleError(length);
             return length;
         }
@@ -62,7 +60,7 @@ public class OpusDecoder : IDisposable
     {
         if (_decoder != IntPtr.Zero)
         {
-            Native.opus_encoder_destroy(_decoder);
+            OpusApi.opus_encoder_destroy(_decoder);
             _decoder = IntPtr.Zero;
         }
     }

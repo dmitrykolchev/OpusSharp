@@ -3,22 +3,16 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace DykBits.Audio.Codecs.Opus;
 
 public enum OpusErrorCode
 {
-    Ok = Native.OPUS_OK,
-    InvalidArguments = Native.OPUS_BAD_ARG,
-    BufferToSmall = Native.OPUS_BUFFER_TOO_SMALL,
-    InternalError = Native.OPUS_INTERNAL_ERROR,
-    InvalidPacket = Native.OPUS_INVALID_PACKET,
-    Unimplemented = Native.OPUS_UNIMPLEMENTED,
-    InvalidState = Native.OPUS_INVALID_STATE,
-    AllocationFailed = Native.OPUS_ALLOC_FAIL,
+    Ok = OpusApi.OPUS_OK,
+    InvalidArguments = OpusApi.OPUS_BAD_ARG,
+    BufferToSmall = OpusApi.OPUS_BUFFER_TOO_SMALL,
+    InternalError = OpusApi.OPUS_INTERNAL_ERROR,
+    InvalidPacket = OpusApi.OPUS_INVALID_PACKET,
+    Unimplemented = OpusApi.OPUS_UNIMPLEMENTED,
+    InvalidState = OpusApi.OPUS_INVALID_STATE,
+    AllocationFailed = OpusApi.OPUS_ALLOC_FAIL,
 }

@@ -1,4 +1,4 @@
-﻿// <copyright file="Native.cs">
+﻿// <copyright file="OpusApi_1.cs">
 // Copyright (c) 2022-23 Dmitry Kolchev. All rights reserved.
 // See LICENSE in the project root for license information
 // </copyright>
@@ -7,7 +7,7 @@ using System.Runtime.CompilerServices;
 
 namespace DykBits.Audio.Codecs.Opus;
 
-internal unsafe class Native
+internal unsafe partial class OpusApi
 {
     public const int OPUS_SET_APPLICATION_REQUEST = 4000;
     public const int OPUS_GET_APPLICATION_REQUEST = 4001;
