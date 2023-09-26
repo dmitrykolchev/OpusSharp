@@ -1,4 +1,5 @@
-# libopus .net wrapper
+# OpusSharp
+.net wrapper for native libopus 1.4 (windows & linux)
 
 # Overview
 Opus is a totally open, royalty-free, highly versatile audio codec. Opus is unmatched for interactive speech and music transmission over the Internet, but is also intended for storage and streaming applications. It is standardized by the Internet Engineering Task Force (IETF) as RFC 6716 which incorporated technology from Skype’s SILK codec and Xiph.Org’s CELT codec.
