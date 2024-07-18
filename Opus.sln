@@ -14,9 +14,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpusSharp.Sample", "OpusSha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ClientServer", "ClientServer", "{D889DA50-9992-43FF-BDEA-D7A3AFEE8994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "ClientServer\Server\Server.csproj", "{794096D5-B058-4F4E-BCDF-F19DCFF3868D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "ClientServer\Server\Server.csproj", "{794096D5-B058-4F4E-BCDF-F19DCFF3868D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "ClientServer\Client\Client.csproj", "{54EFEBB6-9E18-482A-87AE-B35D4FA314A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client", "ClientServer\Client\Client.csproj", "{54EFEBB6-9E18-482A-87AE-B35D4FA314A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neutrino.Sound", "Neutrino.Sound\Neutrino.Sound.csproj", "{4CFE8051-2184-4535-9CFB-7CCE755AAAEF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -40,6 +42,10 @@ Global
 		{54EFEBB6-9E18-482A-87AE-B35D4FA314A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54EFEBB6-9E18-482A-87AE-B35D4FA314A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54EFEBB6-9E18-482A-87AE-B35D4FA314A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CFE8051-2184-4535-9CFB-7CCE755AAAEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CFE8051-2184-4535-9CFB-7CCE755AAAEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CFE8051-2184-4535-9CFB-7CCE755AAAEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CFE8051-2184-4535-9CFB-7CCE755AAAEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
