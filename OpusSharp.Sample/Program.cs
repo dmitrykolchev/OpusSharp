@@ -13,7 +13,7 @@ internal class Program
 {
     private static unsafe void Main(string[] args)
     {
-        using PcmSoundDevice soundDevice = PcmSoundDevice.Create(new PcmSoundDeviceOptions());
+        using PcmSoundDevice soundDevice = PcmSoundDevice.Create(PcmSoundDeviceOptions.Default);
         soundDevice.Open();
         soundDevice.Play("./music.wav");
         soundDevice.Close(false);

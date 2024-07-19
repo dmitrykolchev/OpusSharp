@@ -3,14 +3,10 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace Neutrino.Sound;
 
 public class PcmSoundDeviceOptions
 {
+    public static readonly PcmSoundDeviceOptions Default = new();
+
 }
