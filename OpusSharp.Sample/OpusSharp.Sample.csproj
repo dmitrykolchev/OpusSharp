@@ -15,6 +15,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Neutrino.Sound\Neutrino.Sound.csproj" />
     <ProjectReference Include="..\OpusSharp\OpusSharp.csproj" />
+    <ProjectReference Include="..\Psi\Audio\Neutrino.Psi.Audio.Linux\Neutrino.Psi.Audio.Linux.csproj" />
   </ItemGroup>
 
   <ItemGroup>

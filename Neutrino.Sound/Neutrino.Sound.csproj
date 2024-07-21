@@ -5,6 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <RootNamespace>Neutrino</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Sound\Native\Windows\" />
+  </ItemGroup>
 
 </Project>

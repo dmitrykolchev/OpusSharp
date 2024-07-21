@@ -5,6 +5,8 @@
 
 
 //using NAudio.Wave;
+using Microsoft.Psi;
+using Microsoft.Psi.Audio;
 using Neutrino.Sound;
 
 namespace OpusSharp.Sample;
@@ -13,8 +15,21 @@ internal class Program
 {
     private static unsafe void Main(string[] args)
     {
+        using (Pipeline pipeline = Pipeline.Create())
+        {
+            WaveFileAudioSource source = new(pipeline, "./music.wav");
+            AudioPlayer player = new(pipeline, new AudioPlayerConfiguration
+            {
+                DeviceName = "default",
+                Format = WaveFormat.Create(WaveFormatTag.WAVE_FORMAT_PCM,
+                48000, 16, 2, 4, 192000)
+            });
+            source.PipeTo(player);
+            pipeline.Run();
+        }
+
         using PcmSoundDevice soundDevice = PcmSoundDevice.Create(PcmSoundDeviceOptions.Default);
-        soundDevice.Open();
+        soundDevice.Open("default");
         soundDevice.Play("./music.wav");
         soundDevice.Close(false);
 
