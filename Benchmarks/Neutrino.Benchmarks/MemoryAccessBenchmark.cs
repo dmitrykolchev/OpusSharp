@@ -14,15 +14,9 @@ namespace Neutrino.Benchmarks;
 public class MemoryAccessBenchmark
 {
     [Benchmark]
-    public int MemoryAccessILBenchmark()
+    public int MemoryAccessNetBenchmark()
     {
         return MemoryAccess.SizeOf<long>();
-    }
-
-    [Benchmark]
-    public int MemoryAccessExBenchmark()
-    {
-        return MemoryAccessEx.SizeOf<long>();
     }
 
     [Benchmark]

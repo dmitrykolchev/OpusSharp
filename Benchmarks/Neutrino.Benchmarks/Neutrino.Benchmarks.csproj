@@ -14,11 +14,4 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Psi\Neutrino.Psi\Neutrino.Psi.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Neutrino.Psi.IL">
-      <HintPath>..\..\Psi\Neutrino.Psi\bin\Release\net8.0\Neutrino.Psi.IL.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
 </Project>
