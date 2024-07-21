@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Generates efficient code to serialize and deserialize an IEnumerable.

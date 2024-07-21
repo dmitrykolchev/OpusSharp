@@ -6,9 +6,9 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Component that resamples an audio stream into a different format.

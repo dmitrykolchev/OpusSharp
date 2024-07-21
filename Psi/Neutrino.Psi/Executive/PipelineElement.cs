@@ -7,10 +7,10 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
-using Microsoft.Psi.Components;
-using Microsoft.Psi.Scheduling;
+using Neutrino.Psi.Components;
+using Neutrino.Psi.Scheduling;
 
-namespace Microsoft.Psi.Executive;
+namespace Neutrino.Psi.Executive;
 
 /// <summary>
 /// Class that encapsulates the execution context of a component (the state object, the sync object, the component wiring etc.)

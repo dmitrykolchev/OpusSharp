@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Implements helper operators for stream collections.

@@ -5,14 +5,14 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Diagnostics;
-using Microsoft.Psi.Executive;
-using Microsoft.Psi.Scheduling;
-using Microsoft.Psi.Serialization;
-using Microsoft.Psi.Streams;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Diagnostics;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Scheduling;
+using Neutrino.Psi.Serialization;
+using Neutrino.Psi.Streams;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// A receiver that calls the wrapped delegate to deliver messages by reference (hence, unsafe).

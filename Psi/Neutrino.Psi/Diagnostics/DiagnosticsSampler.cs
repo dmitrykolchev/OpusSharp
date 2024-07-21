@@ -4,10 +4,10 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
 
-namespace Microsoft.Psi.Diagnostics;
+namespace Neutrino.Psi.Diagnostics;
 
 /// <summary>
 /// Component that periodically samples and produces a stream of collected diagnostics information from a running pipeline; including graph structure and message flow statistics.

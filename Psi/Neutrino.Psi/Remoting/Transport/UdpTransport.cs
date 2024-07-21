@@ -8,9 +8,9 @@ using System.Diagnostics;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// UDP network transport.

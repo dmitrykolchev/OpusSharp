@@ -7,7 +7,7 @@ using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Structs, enums and static methods for interacting with Advanced Linux Sound Architecture (ALSA) drivers.

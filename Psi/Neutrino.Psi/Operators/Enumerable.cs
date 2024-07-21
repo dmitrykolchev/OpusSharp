@@ -8,9 +8,9 @@ using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Extension methods that simplify operator usage.

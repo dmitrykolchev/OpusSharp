@@ -4,9 +4,9 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Provides a base class for authoring backwards compatible custom serializers (for reading).

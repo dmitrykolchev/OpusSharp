@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Represents an interval with bounded/unbounded and inclusive/exclusive end points.

@@ -9,7 +9,7 @@ using System.Runtime.Serialization;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Converters;
+namespace Neutrino.Psi.Data.Converters;
 
 /// <summary>
 /// Provides methods to convert a full path to a relative path and vice-versa during JSON serialization.

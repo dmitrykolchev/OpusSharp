@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Class encapsulating the event arguments provided by the <see cref="Pipeline.ComponentCompleted"/> event.

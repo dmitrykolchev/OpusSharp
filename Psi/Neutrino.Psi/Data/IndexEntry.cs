@@ -7,7 +7,7 @@ using System;
 using System.Runtime.InteropServices;
 
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Structure describing a position in a data file.

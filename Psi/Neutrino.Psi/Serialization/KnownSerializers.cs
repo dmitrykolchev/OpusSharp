@@ -11,15 +11,15 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Represents the registry of all serializers.
 /// The <see cref="KnownSerializers.Default"/> contains system-wide serializers for the current version of the type system.
 /// Serializers explicitly registered with this instance are used by all other instances unless an override is specified.
-/// When deserializing from a persisted file, the <see cref="Microsoft.Psi.Data.Importer"/> instance returned by
+/// When deserializing from a persisted file, the <see cref="Neutrino.Psi.Data.Importer"/> instance returned by
 /// the <see cref="Data.PsiImporter"/> will create its own KnownSerializer instance, and register serializers
 /// compatible with the store being open.
 /// </summary>

@@ -5,9 +5,9 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 #pragma warning disable SA1402 // File may only contain a single class
 

@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// A simple consumer.

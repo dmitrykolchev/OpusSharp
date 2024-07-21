@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Data;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 /// <summary>
 /// Implements a reader that allows access to the multiple streams persisted in a single store.

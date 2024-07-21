@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.Dynamic;
 using System.Linq;
 using System.Runtime.Serialization;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Deserializer for any message type to dynamic.

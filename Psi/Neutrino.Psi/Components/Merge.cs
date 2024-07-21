@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Merge one or more streams (T) into a single stream (Message{T}) interleaved in wall-clock time.

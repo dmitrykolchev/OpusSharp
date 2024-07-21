@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Defines a greedy stream interpolator with the same input and output type.

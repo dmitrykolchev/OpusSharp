@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Defines a class used in importing data into a session.

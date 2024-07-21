@@ -6,9 +6,9 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Message recycling pool class.

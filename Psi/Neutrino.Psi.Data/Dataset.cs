@@ -11,10 +11,10 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Psi.Data.Helpers;
+using Neutrino.Psi.Data.Helpers;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Represents a dataset (collection of sessions) to be reasoned over.

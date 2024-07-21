@@ -6,7 +6,7 @@
 using System;
 using System.Threading;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// Maintains a queue of workitems and schedules worker threads to empty them.

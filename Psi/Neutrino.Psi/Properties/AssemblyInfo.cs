@@ -3,7 +3,7 @@
 
 using System.Runtime.CompilerServices;
 
-[assembly: InternalsVisibleTo("Microsoft.Psi.Visualization.Windows")]
-[assembly: InternalsVisibleTo("Microsoft.Psi.PsiStudio")]
+[assembly: InternalsVisibleTo("Neutrino.Psi.Visualization.Windows")]
+[assembly: InternalsVisibleTo("Neutrino.Psi.PsiStudio")]
 [assembly: InternalsVisibleTo("Test.Psi")]
-[assembly: InternalsVisibleTo("Microsoft.Psi.Data")]
+[assembly: InternalsVisibleTo("Neutrino.Psi.Data")]

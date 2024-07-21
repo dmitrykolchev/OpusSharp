@@ -9,7 +9,7 @@ using System.Xml;
 using System.Xml.Serialization;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// A component helper for managing component configuration.

@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// AudioClientStreamOptions enumeration (defined in AudioClient.h).

@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// MFT_MESSAGE_TYPE enum (defined in mftransform.h).

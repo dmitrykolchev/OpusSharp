@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Threading;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Provides an in-memory stream using a circular buffer.

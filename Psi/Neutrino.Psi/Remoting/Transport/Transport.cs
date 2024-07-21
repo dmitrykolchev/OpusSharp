@@ -5,9 +5,9 @@
 
 using System;
 using System.IO;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Network transport utility functions.

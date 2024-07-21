@@ -4,10 +4,10 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Executive;
+using Neutrino.Psi.Executive;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// A generator component that publishes messages of a specified type whenever an event is raised.

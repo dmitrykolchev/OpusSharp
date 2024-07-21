@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Microsoft.Psi.Arrays;
+namespace Neutrino.Psi.Arrays;
 
 /// <summary>
 /// Represents a 2d index domain.

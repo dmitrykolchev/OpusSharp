@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// Defines the delegate for the callback that handles new audio volume notification data.

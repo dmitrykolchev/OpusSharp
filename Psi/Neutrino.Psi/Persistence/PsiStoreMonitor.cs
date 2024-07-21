@@ -9,7 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Threading;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 /// <summary>
 /// Represents a class that monitors live stores.

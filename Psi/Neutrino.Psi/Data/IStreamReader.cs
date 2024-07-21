@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Threading;
 
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Represents a reader of multiple streams of typed messages.

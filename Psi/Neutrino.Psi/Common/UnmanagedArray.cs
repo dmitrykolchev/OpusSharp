@@ -8,10 +8,10 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Common;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Provides efficient, array-style access to data stored in unmanaged memory.

@@ -7,11 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Microsoft.Psi.Data.Helpers;
+using Neutrino.Psi.Data.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Represents an annotation schema.

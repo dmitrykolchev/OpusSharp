@@ -7,7 +7,7 @@ using System;
 using System.Drawing;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data.Converters;
+namespace Neutrino.Psi.Data.Converters;
 
 /// <summary>
 /// Represents a JSON color converter.

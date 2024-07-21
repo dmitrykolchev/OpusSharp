@@ -4,7 +4,7 @@ using System;
 using System.Runtime.CompilerServices;
 
 
-namespace Microsoft.Psi.Common;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Provides static methods to efficiently read and write simple value types as well as arrays of simple value types from/to memory buffers (managed or unmanaged).

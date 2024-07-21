@@ -4,9 +4,9 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Component that reframes a stream of audio buffers to fixed size chunks.

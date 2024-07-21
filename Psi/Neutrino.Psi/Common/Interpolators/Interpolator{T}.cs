@@ -3,7 +3,7 @@
 using System;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Defines a stream interpolator with the same input and output type.

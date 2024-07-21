@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 
 /// <summary>

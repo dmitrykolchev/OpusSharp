@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.Versioning;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Implements methods for registering platform specific resources.

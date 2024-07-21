@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// AUDCLNT_STREAMFLAGS_XXX Constants (defined in Audiosessiontypes.h).

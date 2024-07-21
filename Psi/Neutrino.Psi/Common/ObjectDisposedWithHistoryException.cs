@@ -9,7 +9,7 @@ using System.Diagnostics;
 using System.Text;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// The exception that is thrown, including history, when an operation is performed on a disposed object.

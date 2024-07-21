@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Defines an annotation value schema.

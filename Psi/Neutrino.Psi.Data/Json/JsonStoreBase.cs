@@ -6,7 +6,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents the common elements of JSON data stores.

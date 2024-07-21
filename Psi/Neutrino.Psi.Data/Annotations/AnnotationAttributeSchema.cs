@@ -5,7 +5,7 @@
 
 using System.Collections.Generic;
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Represents an annotation attribute schema.

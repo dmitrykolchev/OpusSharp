@@ -10,7 +10,7 @@ using System.Runtime.Versioning;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 internal unsafe sealed class InfiniteFileReader : IDisposable
 {

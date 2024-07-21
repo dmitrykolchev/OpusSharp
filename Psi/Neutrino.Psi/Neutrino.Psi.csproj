@@ -7,14 +7,6 @@
 	  <Description>Provides the core APIs and components for Platform for Situated Intelligence.</Description>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(OS)'=='Unix'">
-    <ilasmPdbExt>dll.mdb</ilasmPdbExt>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition="'$(OS)'!='Unix'">
-    <ilasmPdbExt>pdb</ilasmPdbExt>
-  </PropertyGroup>
-  
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <DefineConstants>TRACE;DEBUG;TRACKLEAKS</DefineConstants>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -33,11 +25,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ILFiles Include="IL\*.il" />
-    <ILOutput Include="$(OutDir)Neutrino.Psi.IL.dll;$(OutDir)Neutrino.Psi.IL.$(ilasmPdbExt)" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
     <PackageReference Include="System.Collections.Immutable">
       <Version>8.0.0</Version>
@@ -50,23 +37,4 @@
       <Version>4.7.0</Version>
     </PackageReference>
   </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="Neutrino.Psi.IL">
-      <HintPath>$(OutDir)\Neutrino.Psi.IL.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="$(OutDir)\Neutrino.Psi.IL.dll" Pack="true" PackagePath="lib\$(TargetFramework)" />
-  </ItemGroup>
-
-  <Target Name="PreBuild" BeforeTargets="PreBuildEvent" Inputs="@(ILFiles)" Outputs="@(ILOutput)">
-    <Exec Command="$(MSBuildFrameworkToolsPath)ilasm @(ILFiles) /dll /output=$(OutDir)Neutrino.Psi.IL.dll /DEBUG=OPT" />
-  </Target>
-
-  <Target Name="ReallyClean" AfterTargets="Clean">
-    <Delete Files="@(ILOutput)" />
-  </Target>
-
 </Project>

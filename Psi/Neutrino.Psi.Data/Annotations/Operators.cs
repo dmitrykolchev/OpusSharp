@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Implements stream operators for manipulating annotations.

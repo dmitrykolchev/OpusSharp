@@ -6,7 +6,7 @@
 using System;
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// AUDIO_VOLUME_NOTIFICATION_DATA structure (defined in Endpointvolume.h).

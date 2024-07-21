@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Identifies the custom serializer to use when serializing an instance of the class or struct to which this attribute is applied.

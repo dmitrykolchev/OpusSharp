@@ -6,7 +6,7 @@
 #pragma warning disable SA1649 // File name must match first type name
 using System.Collections.Generic;
 
-namespace Microsoft.Psi.Arrays;
+namespace Neutrino.Psi.Arrays;
 
 
 /// <summary>

@@ -6,7 +6,7 @@
 using System.Reflection;
 
 
-namespace Microsoft.Psi.Common;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Runtime info metadata.

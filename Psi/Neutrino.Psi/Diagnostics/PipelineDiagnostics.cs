@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Microsoft.Psi.Diagnostics;
+namespace Neutrino.Psi.Diagnostics;
 
 /// <summary>
 /// Represents diagnostic information about a pipeline.

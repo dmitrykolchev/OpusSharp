@@ -3,11 +3,11 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Serializer optimized for streaming scenarios, where buffers and instances can be cached.

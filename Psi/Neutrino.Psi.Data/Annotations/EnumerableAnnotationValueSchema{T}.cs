@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Represents an enumerable annotation value schema.

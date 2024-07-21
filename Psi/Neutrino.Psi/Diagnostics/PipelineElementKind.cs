@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Diagnostics;
+namespace Neutrino.Psi.Diagnostics;
 
 /// <summary>
 /// Pipeline element kind.

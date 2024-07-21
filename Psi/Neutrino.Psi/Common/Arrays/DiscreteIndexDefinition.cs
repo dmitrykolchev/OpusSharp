@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Psi.Arrays;
+namespace Neutrino.Psi.Arrays;
 
 /// <summary>
 /// Represents the set of discrete values an index can take.

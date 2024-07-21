@@ -5,7 +5,7 @@
 
 using System.Drawing;
 
-namespace Microsoft.Psi.Data.Annotations;
+namespace Neutrino.Psi.Data.Annotations;
 
 /// <summary>
 /// Represents a string annotation value schema.

@@ -8,11 +8,11 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Data;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Data;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 /// <summary>
 /// Implements a writer that can write multiple streams to the same file,

@@ -8,9 +8,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
-using Microsoft.Psi.Data;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Reader that streams audio from a WAVE file.

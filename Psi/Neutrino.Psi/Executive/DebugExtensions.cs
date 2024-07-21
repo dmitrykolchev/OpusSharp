@@ -5,9 +5,9 @@
 
 using System.IO;
 using System.Linq;
-using Microsoft.Psi.Data;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Class containing debug extensions for the executive subsystem.

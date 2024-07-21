@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Provides static methods to access multi-stream JSON stores.

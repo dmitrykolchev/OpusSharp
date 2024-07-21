@@ -3,9 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Data;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 
 /// <summary>

@@ -4,10 +4,10 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Executive;
+using Neutrino.Psi.Executive;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Generates a sequence of messages at the pace dictated by the pipeline.

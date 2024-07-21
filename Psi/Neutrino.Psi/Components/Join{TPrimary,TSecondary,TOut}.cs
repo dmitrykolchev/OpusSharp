@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Component that joins multiple streams using a reproducible interpolator.

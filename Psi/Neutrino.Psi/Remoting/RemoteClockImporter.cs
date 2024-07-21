@@ -9,7 +9,7 @@ using System.IO;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Component that reads remote clock information over TCP and synchronizes the local pipeline clock.

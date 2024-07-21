@@ -6,7 +6,7 @@
 using System;
 using System.IO;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Represents metadata about a dynamically loaded batch processing task

@@ -8,7 +8,7 @@ using System.IO;
 using System.Text;
 
 
-namespace Microsoft.Psi.Common;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Auto-resizable buffer (similar to MemoryStream) but with methods to read arrays of any simple value type, not just byte[].

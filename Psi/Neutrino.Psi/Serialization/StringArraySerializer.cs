@@ -4,9 +4,9 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Version of array optimized for arrays of strings.

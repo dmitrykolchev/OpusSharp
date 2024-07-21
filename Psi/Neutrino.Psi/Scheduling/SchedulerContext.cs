@@ -6,7 +6,7 @@
 using System;
 using System.Threading;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// Provides a context in which work items may be scheduled and tracked as a group.

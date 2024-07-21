@@ -6,9 +6,9 @@
 using System;
 using System.Net;
 using System.Net.Sockets;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// TCP network transport.

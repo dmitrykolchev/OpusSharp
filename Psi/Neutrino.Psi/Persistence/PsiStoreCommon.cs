@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 /// <summary>
 /// Static methods shared by the store reader and writer.

@@ -7,10 +7,10 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
-using Microsoft.Psi;
-using Microsoft.Psi.Data;
+using Neutrino.Psi;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Batch task that exports audio streams to a wav file.

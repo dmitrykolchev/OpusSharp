@@ -6,9 +6,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection.Emit;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Provides serialization and cloning methods for <see cref="Dictionary{TKey, TValue}"/> objects.

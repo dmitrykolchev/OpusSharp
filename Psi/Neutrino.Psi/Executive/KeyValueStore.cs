@@ -5,7 +5,7 @@
 
 using System.Collections.Concurrent;
 
-namespace Microsoft.Psi.Executive;
+namespace Neutrino.Psi.Executive;
 
 /// <summary>
 /// Global store for key/value pairs that can be shared between components via the ApplicationCatalog.

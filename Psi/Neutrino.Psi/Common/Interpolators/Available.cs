@@ -4,10 +4,10 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Common.Interpolators;
+using Neutrino.Psi.Common.Interpolators;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Collection of greedy interpolators that act on immediately available data.

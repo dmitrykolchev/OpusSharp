@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Chunking datagrams for handling large payloads over a size-limited transport.

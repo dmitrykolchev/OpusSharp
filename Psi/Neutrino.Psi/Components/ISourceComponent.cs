@@ -2,7 +2,7 @@
 // Licensed under the MIT license.
 using System;
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Interface indicating that a component is a "source" of messages (e.g. sensor inputs, generators, etc.), or otherwise

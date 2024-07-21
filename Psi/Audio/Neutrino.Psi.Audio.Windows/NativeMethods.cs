@@ -4,9 +4,9 @@
 // </copyright>
 
 using System.Runtime.InteropServices;
-using Microsoft.Psi.Audio.ComInterop;
+using Neutrino.Psi.Audio.ComInterop;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Native methods.

@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Combines the input messages from multiple inputs; invoking given lambda for each.

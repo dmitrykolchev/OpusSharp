@@ -5,9 +5,9 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Psi.Diagnostics;
+using Neutrino.Psi.Diagnostics;
 
-namespace Microsoft.Psi.Streams;
+namespace Neutrino.Psi.Streams;
 
 #pragma warning disable SA1649 // File name must match first type name
 /// <summary>

@@ -7,7 +7,7 @@ using System;
 using System.Diagnostics;
 
 
-namespace Microsoft.Psi.Arrays;
+namespace Neutrino.Psi.Arrays;
 
 /// <summary>
 /// Defines an inclusive range of int values.

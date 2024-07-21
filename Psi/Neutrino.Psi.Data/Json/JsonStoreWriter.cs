@@ -7,11 +7,11 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using Microsoft.Psi.Persistence;
+using Neutrino.Psi.Persistence;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents a writer for JSON data stores.

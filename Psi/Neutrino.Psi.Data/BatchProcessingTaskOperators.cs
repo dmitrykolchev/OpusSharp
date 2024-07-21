@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Provides static extension methods related to batch processing tasks.

@@ -5,9 +5,9 @@
 
 using System;
 using System.IO;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Component that writes an audio stream into a WAVE file.

@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// PROPERTYKEY struct.

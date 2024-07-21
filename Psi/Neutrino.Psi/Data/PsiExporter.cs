@@ -3,10 +3,10 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Component that writes messages to a multi-stream \psi store.

@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Diagnostics;
+namespace Neutrino.Psi.Diagnostics;
 
 
 /// <summary>

@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Defines the arguments for audio data events.

@@ -4,9 +4,9 @@
 // </copyright>
 
 using System;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Factory methods for instantiating timers.

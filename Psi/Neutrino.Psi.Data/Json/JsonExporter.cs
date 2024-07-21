@@ -5,10 +5,10 @@
 
 using System;
 using System.Threading;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Component that writes messages to a multi-stream JSON store.

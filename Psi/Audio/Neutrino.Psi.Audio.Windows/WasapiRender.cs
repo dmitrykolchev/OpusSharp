@@ -8,9 +8,9 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
 using System.Threading.Tasks;
-using Microsoft.Psi.Audio.ComInterop;
+using Neutrino.Psi.Audio.ComInterop;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Implements the services required to play audio to audio renderer devices.

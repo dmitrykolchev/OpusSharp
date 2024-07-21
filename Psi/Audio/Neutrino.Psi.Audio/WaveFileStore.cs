@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Provides static methods to access WAVE file stores.

@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// Class that contains IID and CLSID strings and GUIDs.

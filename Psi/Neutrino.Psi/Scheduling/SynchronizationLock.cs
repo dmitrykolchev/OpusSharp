@@ -6,7 +6,7 @@
 using System;
 using System.Threading;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// Implements a simple lock. Unlike Monitor, this class doesn't enforce thread ownership.

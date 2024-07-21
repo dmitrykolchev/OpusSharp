@@ -5,7 +5,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// MFT_OUTPUT_DATA_BUFFER structure (defined in Mftransform.h).

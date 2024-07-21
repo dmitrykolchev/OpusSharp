@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading;
-using Microsoft.Psi;
+using Neutrino.Psi;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents a stream reader for JSON data stores.

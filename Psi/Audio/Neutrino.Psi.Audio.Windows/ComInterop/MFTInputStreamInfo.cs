@@ -5,7 +5,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// MFT_INPUT_STREAM_INFO structure (defined in Mftransform.h).

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Microsoft.Psi.Common.Interpolators;
+namespace Neutrino.Psi.Common.Interpolators;
 
 /// <summary>
 /// Implements an interpolator based on the values adjacent to the interpolation time, i.e. the

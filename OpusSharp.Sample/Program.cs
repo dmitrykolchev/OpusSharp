@@ -5,8 +5,8 @@
 
 
 //using NAudio.Wave;
-using Microsoft.Psi;
-using Microsoft.Psi.Audio;
+using Neutrino.Psi;
+using Neutrino.Psi.Audio;
 using Neutrino.Sound;
 
 namespace OpusSharp.Sample;

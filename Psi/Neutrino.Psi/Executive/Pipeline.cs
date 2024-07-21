@@ -10,12 +10,12 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Psi.Components;
-using Microsoft.Psi.Diagnostics;
-using Microsoft.Psi.Executive;
-using Microsoft.Psi.Scheduling;
+using Neutrino.Psi.Components;
+using Neutrino.Psi.Diagnostics;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Scheduling;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Represents a graph of components and controls scheduling and message passing.

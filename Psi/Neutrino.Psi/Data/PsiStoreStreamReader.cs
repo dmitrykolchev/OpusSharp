@@ -7,12 +7,12 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Threading;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Persistence;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Persistence;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Implements a reader of multiple streams of typed messages from a single store.

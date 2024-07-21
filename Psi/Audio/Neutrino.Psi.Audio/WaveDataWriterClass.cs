@@ -7,7 +7,7 @@ using System;
 using System.IO;
 using System.Text;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Provides functionality to create Wave files.

@@ -34,6 +34,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neutrino.Psi.Audio.Linux", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Neutrino.Psi.Audio.Windows", "Psi\Audio\Neutrino.Psi.Audio.Windows\Neutrino.Psi.Audio.Windows.csproj", "{4C9230D5-39AC-4987-9648-7EBF6167D452}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Benchmarks", "Benchmarks", "{C08BDD8C-0182-4E8D-87A8-14DB396AD871}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neutrino.Benchmarks", "Benchmarks\Neutrino.Benchmarks\Neutrino.Benchmarks.csproj", "{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +84,10 @@ Global
 		{4C9230D5-39AC-4987-9648-7EBF6167D452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C9230D5-39AC-4987-9648-7EBF6167D452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C9230D5-39AC-4987-9648-7EBF6167D452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +101,7 @@ Global
 		{7A0DD66F-94FA-4A9B-A6F6-5A279110A85A} = {D293E4D8-6AE7-4F78-8B73-6383FC723892}
 		{11D2F6BD-6563-473D-A54E-751307CB7DB1} = {D293E4D8-6AE7-4F78-8B73-6383FC723892}
 		{4C9230D5-39AC-4987-9648-7EBF6167D452} = {D293E4D8-6AE7-4F78-8B73-6383FC723892}
+		{341DA1D2-E6CD-48B1-A64F-3518ADBD89AF} = {C08BDD8C-0182-4E8D-87A8-14DB396AD871}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD86DDD2-6E82-4732-B472-777D94360C7F}

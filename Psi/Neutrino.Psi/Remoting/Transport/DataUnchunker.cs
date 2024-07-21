@@ -6,7 +6,7 @@
 using System;
 using System.IO;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Chunked UDP datagram receiver.

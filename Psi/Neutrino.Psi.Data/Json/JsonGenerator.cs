@@ -6,10 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Component that plays back data from a JSON store.

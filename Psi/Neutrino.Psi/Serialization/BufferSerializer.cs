@@ -5,9 +5,9 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Implements efficient code to serialize and deserialize BufferReader instances.

@@ -8,12 +8,12 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Sockets;
 using System.Threading;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Data;
-using Microsoft.Psi.Persistence;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Data;
+using Neutrino.Psi.Persistence;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Importer for remoting over network transport.

@@ -5,10 +5,10 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 
 /// <summary>

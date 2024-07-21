@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Represents a batch processing task attribute.

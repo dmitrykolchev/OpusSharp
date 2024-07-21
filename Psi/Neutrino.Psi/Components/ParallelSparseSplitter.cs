@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Implements the splitter for the <see cref="ParallelSparseDo{TIn, TBranchKey, TBranchIn}"/>

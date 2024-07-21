@@ -6,7 +6,7 @@
 using System;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Descriptor for pipeline replay.

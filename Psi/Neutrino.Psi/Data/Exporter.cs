@@ -7,12 +7,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Components;
-using Microsoft.Psi.Persistence;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Components;
+using Neutrino.Psi.Persistence;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 
 /// <summary>

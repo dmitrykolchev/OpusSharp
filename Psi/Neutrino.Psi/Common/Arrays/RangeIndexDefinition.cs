@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Microsoft.Psi.Arrays;
+namespace Neutrino.Psi.Arrays;
 
 /// <summary>
 /// Defines the possible values of an index as a contiguous range.

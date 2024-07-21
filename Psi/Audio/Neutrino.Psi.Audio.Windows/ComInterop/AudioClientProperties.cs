@@ -5,7 +5,7 @@
 
 using System.Runtime.InteropServices;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// Audio client properties (defined in AudioClient.h).

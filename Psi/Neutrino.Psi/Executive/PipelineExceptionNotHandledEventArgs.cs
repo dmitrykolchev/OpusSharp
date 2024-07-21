@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Provides data for the <see cref="Pipeline.PipelineExceptionNotHandled"/> event.

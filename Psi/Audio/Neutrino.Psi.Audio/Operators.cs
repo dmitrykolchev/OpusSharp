@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// The method used to streamline audio buffers.
@@ -40,7 +40,7 @@ public enum AudioStreamlineMethod
 }
 
 /// <summary>
-/// Stream operators and extension methods for Microsoft.Psi.Audio.
+/// Stream operators and extension methods for Neutrino.Psi.Audio.
 /// </summary>
 /// <remarks>
 /// These are a collection of extension methods defining various audio and acoustic operators on <see cref="AudioBuffer"/>

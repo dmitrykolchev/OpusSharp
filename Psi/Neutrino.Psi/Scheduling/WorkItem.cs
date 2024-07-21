@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// A workitem that can be scheduled for execution by the scheduler.

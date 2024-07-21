@@ -3,9 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Components;
+using Neutrino.Psi.Components;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Component that extracts acoustic features (e.g. LogEnergy, ZeroCrossing, FFT) from an audio stream.

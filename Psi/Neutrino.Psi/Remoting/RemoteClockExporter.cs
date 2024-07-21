@@ -10,7 +10,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Threading;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Component that exports pipeline clock information over TCP to enable synchronization.

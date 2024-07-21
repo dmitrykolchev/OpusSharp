@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Interface representing a connected transport client.

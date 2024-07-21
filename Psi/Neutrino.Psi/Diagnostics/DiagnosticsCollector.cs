@@ -5,10 +5,10 @@
 
 using System;
 using System.Collections.Concurrent;
-using Microsoft.Psi.Executive;
+using Neutrino.Psi.Executive;
 
 
-namespace Microsoft.Psi.Diagnostics;
+namespace Neutrino.Psi.Diagnostics;
 
 /// <summary>
 /// Class that collects diagnostics information from a running pipeline; including graph structure changes and message flow statistics.

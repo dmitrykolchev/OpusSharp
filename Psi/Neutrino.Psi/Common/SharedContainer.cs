@@ -5,10 +5,10 @@
 
 using System;
 using System.Threading;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Provides a container that tracks the usage of a resource (such as a large memory allocation) and allows reusing it once not in use

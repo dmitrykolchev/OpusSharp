@@ -9,9 +9,9 @@ using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Microsoft.Psi.Persistence;
+using Neutrino.Psi.Persistence;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents a reader for JSON data stores.

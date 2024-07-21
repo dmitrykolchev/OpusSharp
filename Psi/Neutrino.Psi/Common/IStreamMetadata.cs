@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Represents metadata used in storing stream data in a store.

@@ -5,9 +5,9 @@
 
 using System.Collections.Generic;
 using System.Threading;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Defines an interface for all simple writers of data stores.

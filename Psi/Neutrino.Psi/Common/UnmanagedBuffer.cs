@@ -5,10 +5,10 @@
 
 using System;
 using System.Runtime.InteropServices;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Common;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Unmanaged buffer wrapper class.

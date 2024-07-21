@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio.ComInterop;
+namespace Neutrino.Psi.Audio.ComInterop;
 
 /// <summary>
 /// _AUDCLNT_BUFFERFLAGS enumeration (defined in AudioClient.h).

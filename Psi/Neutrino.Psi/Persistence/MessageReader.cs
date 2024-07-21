@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Runtime.Versioning;
 using System.Threading;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 /// <summary>
 /// Reads message blocks from an infinite file.

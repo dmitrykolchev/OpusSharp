@@ -5,13 +5,13 @@
 
 using System;
 using System.Collections.Generic;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Components;
-using Microsoft.Psi.Executive;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Components;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Component that reads messages via a specified <see cref="IStreamReader"/> and publishes them on streams.

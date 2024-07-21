@@ -6,7 +6,7 @@
 using System.ComponentModel;
 using System.Runtime.Serialization;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Provides an implementation of <see cref="INotifyPropertyChanged"/> and <see cref="INotifyPropertyChanging"/> for use in implementing bindable objects.

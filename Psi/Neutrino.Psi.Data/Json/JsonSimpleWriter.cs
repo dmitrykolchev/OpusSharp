@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Serialization;
 using Newtonsoft.Json.Linq;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents a simple writer for JSON data stores.

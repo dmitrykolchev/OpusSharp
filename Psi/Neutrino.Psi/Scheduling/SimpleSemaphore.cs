@@ -6,7 +6,7 @@
 using System;
 using System.Threading;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// Implements a semaphore class that limits the number of threads entering a resource and provides an event when all threads finished.

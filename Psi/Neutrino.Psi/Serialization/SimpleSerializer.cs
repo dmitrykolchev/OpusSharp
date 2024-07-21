@@ -3,9 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Default class for custom serializers of primitive types.

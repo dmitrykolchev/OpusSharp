@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Provides a class for applying a Hanning window.

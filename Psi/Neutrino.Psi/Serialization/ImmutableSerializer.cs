@@ -5,9 +5,9 @@
 
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 
 /// <summary>

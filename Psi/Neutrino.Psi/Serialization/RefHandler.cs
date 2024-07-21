@@ -5,9 +5,9 @@
 
 using System;
 using System.IO;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Internal wrapper for all serializers of reference types.

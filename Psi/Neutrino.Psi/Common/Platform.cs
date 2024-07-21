@@ -13,7 +13,7 @@ using System.Threading;
 using Microsoft.Win32.SafeHandles;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Internal class to hold native P/Invoke methods.

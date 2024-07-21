@@ -3,7 +3,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <Description>Provides Windows-specific APIs and components for audio capture, processing and playback.</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RootNamespace>Microsoft.Psi.Audio</RootNamespace>
+    <RootNamespace>Neutrino.Psi.Audio</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>

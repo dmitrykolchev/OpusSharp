@@ -7,9 +7,9 @@ using System;
 using System.IO;
 using System.IO.Pipes;
 using System.Runtime.Versioning;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Remoting;
+namespace Neutrino.Psi.Remoting;
 
 /// <summary>
 /// Named pipes transport.

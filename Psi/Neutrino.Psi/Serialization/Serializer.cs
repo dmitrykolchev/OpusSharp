@@ -5,10 +5,10 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Serialization;
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// The main entry point into the serialization subsystem. Provides methods to serialize, deserialize and clone objects.

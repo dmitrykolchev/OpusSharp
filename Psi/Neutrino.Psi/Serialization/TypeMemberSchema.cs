@@ -5,7 +5,7 @@
 
 using System.Reflection;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// The type member schema information.

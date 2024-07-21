@@ -6,7 +6,7 @@
 using System;
 using System.Threading;
 
-namespace Microsoft.Psi.Scheduling;
+namespace Neutrino.Psi.Scheduling;
 
 /// <summary>
 /// A generic ordered queue that sorts items based on the specified Comparer.

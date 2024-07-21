@@ -6,7 +6,7 @@
 using System;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data.Json;
+namespace Neutrino.Psi.Data.Json;
 
 /// <summary>
 /// Represents metadata used in storing stream data in a JSON store.

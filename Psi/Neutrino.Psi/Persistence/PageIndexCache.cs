@@ -6,9 +6,9 @@
 using System;
 using System.Collections.Generic;
 using System.Threading;
-using Microsoft.Psi.Data;
+using Neutrino.Psi.Data;
 
-namespace Microsoft.Psi.Persistence;
+namespace Neutrino.Psi.Persistence;
 
 internal class PageIndexCache : IDisposable
 {

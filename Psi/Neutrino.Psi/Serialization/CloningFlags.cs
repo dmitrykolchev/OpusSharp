@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Enumeration of flags that control the behavior of cloning.

@@ -6,7 +6,7 @@
 using System;
 using Newtonsoft.Json.Serialization;
 
-namespace Microsoft.Psi.Data.Helpers;
+namespace Neutrino.Psi.Data.Helpers;
 
 /// <summary>
 /// Represents a JSON serialization binder that will only deserialize

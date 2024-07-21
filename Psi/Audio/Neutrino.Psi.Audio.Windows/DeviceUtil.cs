@@ -6,9 +6,9 @@
 using System;
 using System.Runtime.InteropServices;
 using System.Runtime.Versioning;
-using Microsoft.Psi.Audio.ComInterop;
+using Neutrino.Psi.Audio.ComInterop;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Provides a collection of audio device utility methods.

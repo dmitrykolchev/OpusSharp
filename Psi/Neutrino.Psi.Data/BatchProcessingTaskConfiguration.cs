@@ -6,10 +6,10 @@
 using System.ComponentModel;
 using System.IO;
 using System.Runtime.Serialization;
-using Microsoft.Psi.Data.Helpers;
+using Neutrino.Psi.Data.Helpers;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Represents a configuration for a batch processing task.

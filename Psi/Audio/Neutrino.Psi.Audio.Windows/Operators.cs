@@ -5,10 +5,10 @@
 
 using System.Runtime.Versioning;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
-/// Stream operators and extension methods for Microsoft.Psi.Audio.Windows.
+/// Stream operators and extension methods for Neutrino.Psi.Audio.Windows.
 /// </summary>
 /// <remarks>
 /// These are a collection of extension methods defining various audio operators on <see cref="AudioBuffer"/> streams.

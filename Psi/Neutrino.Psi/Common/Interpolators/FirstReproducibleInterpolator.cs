@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Microsoft.Psi.Common.Interpolators;
+namespace Neutrino.Psi.Common.Interpolators;
 
 /// <summary>
 /// Implements a reproducible interpolator that selects the first value from a specified window.

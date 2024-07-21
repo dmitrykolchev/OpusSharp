@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// Sends the input message to at most one of the dynamic outputs, selected using the specified output selector.

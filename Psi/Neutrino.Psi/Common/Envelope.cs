@@ -7,7 +7,7 @@ using System;
 using System.Runtime.InteropServices;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Represents the envelope of a message published to a data stream.

@@ -8,10 +8,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Persistence;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Persistence;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Defines the delegate for a <see cref="SchemaGenerator"/>.
@@ -359,12 +359,12 @@ public sealed class TypeSchema : Metadata
     /// <returns>A collection of <see cref="MemberInfo"/> objects.</returns>
     public IEnumerable<MemberInfo> GetCompatibleMemberSet(TypeSchema targetSchema = null)
     {
-        // NOTE: Since the "Time" field in Microsoft.Psi.Envelope was renamed to "CreationTime", we fail
+        // NOTE: Since the "Time" field in Neutrino.Psi.Envelope was renamed to "CreationTime", we fail
         // to load stores into PsiStudio that were created with the earlier envelope format.  Since we only
         // renamed the field and did not add, remove, or otherwise change any fields or their ordering, it's
         // safe to map the old Envelope's schema to the target schema.  However, we should implement a
         // better solution going forward using a custom serializer for Envelope.
-        if (targetSchema == null || targetSchema.IsPartial || targetSchema.Name.StartsWith("Microsoft.Psi.Envelope"))
+        if (targetSchema == null || targetSchema.IsPartial || targetSchema.Name.StartsWith("Neutrino.Psi.Envelope"))
         {
             return Members.Select(t => t.MemberInfo);
         }

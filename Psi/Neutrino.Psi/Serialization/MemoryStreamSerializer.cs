@@ -5,9 +5,9 @@
 
 using System.IO;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Provides serialization and cloning methods for <see cref="MemoryStream"/> objects.

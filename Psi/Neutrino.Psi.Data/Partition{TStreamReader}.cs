@@ -7,10 +7,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
-using Microsoft.Psi.Data.Converters;
+using Neutrino.Psi.Data.Converters;
 using Newtonsoft.Json;
 
-namespace Microsoft.Psi.Data;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Defines a base class of partitions that can be added to a session.

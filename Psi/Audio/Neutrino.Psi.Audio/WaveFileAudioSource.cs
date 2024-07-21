@@ -6,7 +6,7 @@
 using System;
 using System.IO;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Component that streams audio from a WAVE file.

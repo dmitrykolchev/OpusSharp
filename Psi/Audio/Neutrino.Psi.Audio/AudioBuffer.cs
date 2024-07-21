@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Audio;
+namespace Neutrino.Psi.Audio;
 
 /// <summary>
 /// Represents a buffer of audio and its associated format information.

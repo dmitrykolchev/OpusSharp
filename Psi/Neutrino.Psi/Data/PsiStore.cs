@@ -10,13 +10,13 @@ using System.Linq;
 using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
-using Microsoft.Psi.Common;
-using Microsoft.Psi.Data;
-using Microsoft.Psi.Persistence;
-using Microsoft.Psi.Serialization;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Data;
+using Neutrino.Psi.Persistence;
+using Neutrino.Psi.Serialization;
 
 
-namespace Microsoft.Psi;
+namespace Neutrino.Psi;
 
 /// <summary>
 /// Provides static methods to access multi-stream \psi stores.

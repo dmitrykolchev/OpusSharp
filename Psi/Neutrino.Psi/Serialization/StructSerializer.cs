@@ -3,9 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Auto-generated serializer for complex value types (that is, structs having one or more non-primitive fields).

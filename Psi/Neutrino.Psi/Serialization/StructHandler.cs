@@ -5,9 +5,9 @@
 
 using System;
 using System.Runtime.CompilerServices;
-using Microsoft.Psi.Common;
+using Neutrino.Psi.Common;
 
-namespace Microsoft.Psi.Serialization;
+namespace Neutrino.Psi.Serialization;
 
 /// <summary>
 /// Internal wrapper that implements both a typed and an untyped version of the serialization contract.

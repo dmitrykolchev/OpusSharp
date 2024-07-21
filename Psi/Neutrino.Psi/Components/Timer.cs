@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Microsoft.Psi.Components;
+namespace Neutrino.Psi.Components;
 
 /// <summary>
 /// A simple producer component that wakes up on a predefined interval and publishes a simple message.
