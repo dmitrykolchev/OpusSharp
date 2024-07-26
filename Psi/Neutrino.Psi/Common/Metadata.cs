@@ -8,7 +8,7 @@ using Neutrino.Psi.Common;
 using Neutrino.Psi.Serialization;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Specifies the kind of <see cref="Metadata"/>.

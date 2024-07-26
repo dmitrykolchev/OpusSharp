@@ -4,9 +4,9 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common.Intervals;
 
-
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Descriptor for pipeline replay.

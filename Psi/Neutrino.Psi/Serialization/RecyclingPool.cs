@@ -8,7 +8,7 @@ using System.Diagnostics;
 using System.Text;
 using Neutrino.Psi.Serialization;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Message recycling pool class.

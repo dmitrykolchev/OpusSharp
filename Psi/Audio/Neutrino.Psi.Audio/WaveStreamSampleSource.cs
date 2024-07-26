@@ -6,6 +6,8 @@
 using System;
 using System.IO;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Streams;
 
 namespace Neutrino.Psi.Audio;
 

@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Intervals;
 
 /// <summary>
 /// Represents a bounded/unbounded, inclusive/exclusive interval endpoint value.

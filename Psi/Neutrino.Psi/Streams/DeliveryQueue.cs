@@ -5,6 +5,8 @@
 
 using System;
 using System.Collections.Generic;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.PerfCounters;
 using Neutrino.Psi.Diagnostics;
 
 namespace Neutrino.Psi.Streams;

@@ -7,8 +7,11 @@ using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Threading;
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Connectors;
 using Neutrino.Psi.Scheduling;
+using Neutrino.Psi.Streams;
 
 namespace Neutrino.Psi.Executive;
 
@@ -115,13 +118,7 @@ internal class PipelineElement
     /// <summary>
     /// Gets a value indicating whether node is a <see cref="Connector{T}"/> component.
     /// </summary>
-    internal bool IsConnector
-    {
-        get
-        {
-            return typeof(IConnector).IsAssignableFrom(StateObject.GetType());
-        }
-    }
+    internal bool IsConnector => typeof(IConnector).IsAssignableFrom(StateObject.GetType());
 
     /// <summary>
     /// Gets the envelope of the last message posted on any of this node's outputs.

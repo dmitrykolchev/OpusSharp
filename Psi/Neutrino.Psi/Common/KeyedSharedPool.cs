@@ -7,7 +7,7 @@ using System;
 using System.Collections.Concurrent;
 using System.Linq;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Provides a pool of shared objects organized by a key. The key is used both to group

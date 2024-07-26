@@ -5,6 +5,8 @@
 
 using System;
 using System.Runtime.Versioning;
+using Neutrino.Psi.Configuration;
+using Neutrino.Psi.Executive;
 
 namespace Neutrino.Psi.Audio;
 

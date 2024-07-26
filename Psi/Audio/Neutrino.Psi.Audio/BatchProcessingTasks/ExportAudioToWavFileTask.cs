@@ -7,8 +7,9 @@ using System.ComponentModel;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
-using Neutrino.Psi;
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Data;
+using Neutrino.Psi.Executive;
 
 namespace Neutrino.Psi.Audio;
 

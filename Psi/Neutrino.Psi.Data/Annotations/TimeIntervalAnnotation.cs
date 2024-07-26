@@ -4,6 +4,7 @@
 // </copyright>
 
 using System.Collections.Generic;
+using Neutrino.Psi.Common.Intervals;
 
 namespace Neutrino.Psi.Data.Annotations;
 

@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Streams;
 
 /// <summary>
 /// The counters supported by all Emitters.

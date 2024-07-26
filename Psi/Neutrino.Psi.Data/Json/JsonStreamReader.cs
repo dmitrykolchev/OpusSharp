@@ -8,7 +8,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Threading;
-using Neutrino.Psi;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Newtonsoft.Json.Linq;
 
 namespace Neutrino.Psi.Data.Json;

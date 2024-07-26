@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-namespace Neutrino.Psi.Common;
+namespace Neutrino.Psi.Common.Security;
 
 /// <summary>
 /// Represents the security warning text displayed to the user

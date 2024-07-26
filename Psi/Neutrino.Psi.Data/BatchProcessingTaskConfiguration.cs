@@ -6,6 +6,7 @@
 using System.ComponentModel;
 using System.IO;
 using System.Runtime.Serialization;
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Data.Helpers;
 using Newtonsoft.Json;
 

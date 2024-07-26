@@ -4,6 +4,7 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common.Intervals;
 
 namespace Neutrino.Psi.Data;
 

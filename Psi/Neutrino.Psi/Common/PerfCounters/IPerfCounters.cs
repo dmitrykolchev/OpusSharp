@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.PerfCounters;
 
 /// <summary>
 /// Specifies the formula used to update the performance counters.

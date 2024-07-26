@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Neutrino.Psi.Arrays;
+namespace Neutrino.Psi.Common.Arrays;
 
 /// <summary>
 /// Base class for a single-dimensional index definition.

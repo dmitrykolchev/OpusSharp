@@ -5,6 +5,7 @@
 
 using System;
 using System.Threading;
+using Neutrino.Psi.Common.PerfCounters;
 
 namespace Neutrino.Psi.Scheduling;
 

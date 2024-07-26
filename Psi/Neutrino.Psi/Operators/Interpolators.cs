@@ -4,6 +4,9 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Interpolators;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Components;
 
 namespace Neutrino.Psi;

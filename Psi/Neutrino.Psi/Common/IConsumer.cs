@@ -1,7 +1,11 @@
-﻿// Copyright (c) Microsoft Corporation. All rights reserved.
-// Licensed under the MIT license.
+﻿// <copyright file="IConsumer.cs">
+// Copyright (c) 2022-23 Dmitry Kolchev. All rights reserved.
+// See LICENSE in the project root for license information
+// </copyright>
 
-namespace Neutrino.Psi;
+using Neutrino.Psi.Streams;
+
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Components that implement this interface are simple, single input consumers.

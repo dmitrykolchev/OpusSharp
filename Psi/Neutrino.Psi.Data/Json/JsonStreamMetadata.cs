@@ -4,6 +4,8 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Newtonsoft.Json;
 
 namespace Neutrino.Psi.Data.Json;

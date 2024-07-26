@@ -10,12 +10,15 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Connectors;
 using Neutrino.Psi.Diagnostics;
-using Neutrino.Psi.Executive;
 using Neutrino.Psi.Scheduling;
+using Neutrino.Psi.Streams;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Executive;
 
 /// <summary>
 /// Represents a graph of components and controls scheduling and message passing.

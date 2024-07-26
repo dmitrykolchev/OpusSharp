@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Interpolators;
 
 
 /// <summary>

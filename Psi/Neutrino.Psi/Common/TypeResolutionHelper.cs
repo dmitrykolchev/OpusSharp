@@ -8,7 +8,7 @@ using System.Reflection;
 using System.Text.RegularExpressions;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Helper class for type resolution.

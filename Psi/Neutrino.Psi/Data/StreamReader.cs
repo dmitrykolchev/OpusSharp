@@ -4,10 +4,9 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
 
 namespace Neutrino.Psi.Data;
-
-
 /// <summary>
 /// Represents factory for dynamically creating stream readers.
 /// </summary>

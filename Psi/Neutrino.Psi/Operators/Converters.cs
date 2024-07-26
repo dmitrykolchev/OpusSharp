@@ -3,6 +3,8 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
+using Neutrino.Psi.Common;
+
 namespace Neutrino.Psi;
 
 /// <summary>

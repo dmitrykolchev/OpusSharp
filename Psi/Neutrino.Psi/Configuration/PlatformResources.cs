@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Configuration;
 
 /// <summary>
 /// Global registry of named platform resources.

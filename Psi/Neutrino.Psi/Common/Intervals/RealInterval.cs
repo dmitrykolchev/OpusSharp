@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Intervals;
 
 /// <summary>
 /// Represents a real (double) interval with bounded/unbounded and inclusive/exclusive end points.

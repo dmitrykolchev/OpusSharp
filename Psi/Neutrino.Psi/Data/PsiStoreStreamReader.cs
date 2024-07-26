@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Threading;
 using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Persistence;
 using Neutrino.Psi.Serialization;
 

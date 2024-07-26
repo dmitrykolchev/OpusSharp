@@ -5,7 +5,11 @@
 
 using System;
 using System.Runtime.Versioning;
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Configuration;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Streams;
 
 namespace Neutrino.Psi.Audio;
 

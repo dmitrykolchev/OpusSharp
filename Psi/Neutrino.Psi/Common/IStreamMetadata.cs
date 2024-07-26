@@ -4,8 +4,9 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common.Intervals;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Represents metadata used in storing stream data in a store.

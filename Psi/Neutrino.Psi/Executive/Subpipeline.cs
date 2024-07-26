@@ -5,11 +5,14 @@
 
 using System;
 using System.Linq;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Connectors;
 using Neutrino.Psi.Executive;
 using Neutrino.Psi.Scheduling;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Executive;
 
 /// <summary>
 /// Represents a graph of components and controls scheduling and message passing.

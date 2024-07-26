@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Interpolators;
 
 /// <summary>
 /// Defines a base abstract class for stream interpolators.

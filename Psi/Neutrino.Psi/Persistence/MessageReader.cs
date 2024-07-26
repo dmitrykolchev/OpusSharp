@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Versioning;
 using System.Threading;
+using Neutrino.Psi.Common;
 
 namespace Neutrino.Psi.Persistence;
 

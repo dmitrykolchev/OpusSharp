@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Static methods that simplify <see cref="Message{T}"/> creation.

@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Data.Helpers;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;

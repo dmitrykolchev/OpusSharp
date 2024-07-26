@@ -8,6 +8,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Runtime.Serialization;
 using System.Threading;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Data;
 
 namespace Neutrino.Psi.Audio;

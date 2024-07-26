@@ -36,7 +36,7 @@ internal class AudioDataEventArgs : EventArgs
     }
 
     /// <summary>
-    /// Gets or sets the timestamp (in 100-ns ticks since system boot) of the first audio sample contained in <see cref="Psi.Data"/>.
+    /// Gets or sets the timestamp (in 100-ns ticks since system boot) of the first audio sample contained in <see cref="Psi.Common.Data"/>.
     /// </summary>
     public long Timestamp
     {

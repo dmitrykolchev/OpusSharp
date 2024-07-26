@@ -6,6 +6,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Connectors;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Streams;
 
 namespace Neutrino.Psi.Components;
 

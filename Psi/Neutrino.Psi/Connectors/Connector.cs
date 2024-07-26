@@ -3,7 +3,11 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Neutrino.Psi.Components;
+using Neutrino.Psi.Common;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Streams;
+
+namespace Neutrino.Psi.Connectors;
 
 /// <summary>
 /// A pass-through component, that can relay messages from one pipeline to another and can be used when

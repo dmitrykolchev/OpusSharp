@@ -11,12 +11,14 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 using Neutrino.Psi.Common;
-using Neutrino.Psi.Data;
+using Neutrino.Psi.Common.Intervals;
+using Neutrino.Psi.Executive;
 using Neutrino.Psi.Persistence;
 using Neutrino.Psi.Serialization;
+using Neutrino.Psi.Streams;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Data;
 
 /// <summary>
 /// Provides static methods to access multi-stream \psi stores.

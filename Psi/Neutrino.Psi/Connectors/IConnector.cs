@@ -3,7 +3,7 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
-namespace Neutrino.Psi.Components;
+namespace Neutrino.Psi.Connectors;
 
 /// <summary>
 /// Defines a marker interface for connectors, e.g. entities used to bridge pipelines.

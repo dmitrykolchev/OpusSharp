@@ -2,7 +2,7 @@
 // Licensed under the MIT license.
 using System;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Intervals;
 
 
 /// <summary>

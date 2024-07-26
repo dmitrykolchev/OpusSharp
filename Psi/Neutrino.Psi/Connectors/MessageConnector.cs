@@ -3,9 +3,12 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Data;
+using Neutrino.Psi.Executive;
+using Neutrino.Psi.Streams;
 
-namespace Neutrino.Psi.Components;
+namespace Neutrino.Psi.Connectors;
 
 
 /// <summary>

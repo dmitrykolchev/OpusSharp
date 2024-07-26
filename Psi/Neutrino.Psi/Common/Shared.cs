@@ -9,11 +9,10 @@ using System.Globalization;
 using System.Diagnostics;
 using System.Text;
 #endif
-using Neutrino.Psi.Common;
 using Neutrino.Psi.Serialization;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 #pragma warning disable SA1402
 

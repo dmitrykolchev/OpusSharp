@@ -6,13 +6,13 @@
 using System;
 using System.Collections.Generic;
 using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.PerfCounters;
 using Neutrino.Psi.Diagnostics;
 using Neutrino.Psi.Executive;
 using Neutrino.Psi.Scheduling;
 using Neutrino.Psi.Serialization;
-using Neutrino.Psi.Streams;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Streams;
 
 /// <summary>
 /// A receiver that calls the wrapped delegate to deliver messages by reference (hence, unsafe).

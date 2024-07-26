@@ -6,9 +6,10 @@
 using System;
 using System.Collections.Generic;
 using Neutrino.Psi.Common;
+using Neutrino.Psi.Common.Intervals;
 using Neutrino.Psi.Serialization;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 
 /// <summary>

@@ -1,7 +1,7 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.PerfCounters;
 
 /// <summary>
 /// Represents a performance counter collection.

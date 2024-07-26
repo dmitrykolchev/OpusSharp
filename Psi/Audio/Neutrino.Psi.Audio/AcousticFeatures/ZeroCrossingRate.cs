@@ -3,7 +3,9 @@
 // See LICENSE in the project root for license information
 // </copyright>
 
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Components;
+using Neutrino.Psi.Executive;
 
 namespace Neutrino.Psi.Audio;
 

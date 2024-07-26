@@ -4,6 +4,7 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
 
 namespace Neutrino.Psi.Remoting;
 

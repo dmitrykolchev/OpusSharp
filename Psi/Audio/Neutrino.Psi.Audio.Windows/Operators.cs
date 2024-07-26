@@ -4,6 +4,7 @@
 // </copyright>
 
 using System.Runtime.Versioning;
+using Neutrino.Psi.Common;
 
 namespace Neutrino.Psi.Audio;
 

@@ -4,10 +4,9 @@
 // </copyright>
 
 using System;
-using Neutrino.Psi.Common.Interpolators;
+using Neutrino.Psi.Common.Intervals;
 
-
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common.Interpolators;
 
 /// <summary>
 /// Collection of greedy interpolators that act on immediately available data.

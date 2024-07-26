@@ -4,8 +4,9 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Streams;
 
 /// <summary>
 /// Enables message passing between components.

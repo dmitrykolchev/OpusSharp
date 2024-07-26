@@ -5,9 +5,11 @@
 
 using System.IO;
 using System.Linq;
+using Neutrino.Psi.Common;
 using Neutrino.Psi.Data;
+using Neutrino.Psi.Streams;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Executive;
 
 /// <summary>
 /// Class containing debug extensions for the executive subsystem.

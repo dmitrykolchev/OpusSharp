@@ -6,7 +6,6 @@
 using System;
 using System.IO;
 using System.IO.MemoryMappedFiles;
-using System.Runtime.Versioning;
 using System.Threading;
 using System.Threading.Tasks;
 

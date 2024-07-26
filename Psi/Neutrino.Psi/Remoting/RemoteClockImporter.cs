@@ -8,6 +8,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Net.Sockets;
 using System.Threading;
+using Neutrino.Psi.Executive;
 
 namespace Neutrino.Psi.Remoting;
 

@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using Neutrino.Psi.Serialization;
 
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Provides a pool of shared objects.

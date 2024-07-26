@@ -4,6 +4,7 @@
 // </copyright>
 
 using System;
+using Neutrino.Psi.Common;
 using Newtonsoft.Json.Serialization;
 
 namespace Neutrino.Psi.Data.Helpers;

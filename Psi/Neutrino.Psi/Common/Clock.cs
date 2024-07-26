@@ -5,7 +5,7 @@
 
 using System;
 
-namespace Neutrino.Psi;
+namespace Neutrino.Psi.Common;
 
 
 /// <summary>

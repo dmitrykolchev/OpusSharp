@@ -1,7 +1,9 @@
 ﻿// Copyright (c) Microsoft Corporation. All rights reserved.
 // Licensed under the MIT license.
 
-namespace Neutrino.Psi;
+using Neutrino.Psi.Streams;
+
+namespace Neutrino.Psi.Common;
 
 /// <summary>
 /// Components that implement this interface are simple, single output generators.
